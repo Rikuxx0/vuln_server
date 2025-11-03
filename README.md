@@ -6,7 +6,7 @@
 
 This repository creates a local vulnerable target environment for PoC scanning:
 - Juice Shop (http://localhost:3000)
-- Vulnerable API (http://localhost:5000)
+- Vulnerable API (http://localhost:5050)
 - Postgres, Redis, Adminer (http://localhost:8080)
 
 ## Run
@@ -16,4 +16,4 @@ This repository creates a local vulnerable target environment for PoC scanning:
 ## Notes
 - Only run locally.
 - The API deliberately contains insecure endpoints (`/eval`, `/search`) for PoC purposes.
-- Use Nuclei, Nikto, ZAP against http://localhost:3000 and http://localhost:5000.
+- Use Nuclei, Nikto, ZAP against http://localhost:3000 and http://localhost:5050.
